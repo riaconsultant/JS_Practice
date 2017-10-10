@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Object Literals</title>
+    <script>
+        var obj = {
+            name:"manoj",
+            age:32,
+            sayHello: function(){
+                alert("Hello "+this.name);
+                return this;
+            },
+            setName:function(name){
+                this.name=name;
+            },
+            getName:function(){
+                return this.name;
+            }
+        };
+        
+        obj.setName("Chaurasiya");
+        console.log(obj.getName());
+        obj.name="hello";
+        console.log(obj.sayHello());
+
+    </script>
+</head>
+<body>
+    <h2></h2>
+</body>
+</html>
