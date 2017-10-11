@@ -15,11 +15,12 @@ Java Script Practice set as per standard
 11. Factory Pattern
 12. Mixin Pattern
 13. Decorator Pattern
-14. MV* Pattern
+14. Pub Sub Pattern
+15. MV* Pattern
 >>1. MVC
 >>2. MVP
 >>3. MVVM
-15. Pub Sub Pattern
+
 
 Thanks, 
 <b>Manoj</b>
