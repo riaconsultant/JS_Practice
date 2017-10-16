@@ -1,0 +1,37 @@
+<html>
+<head>
+    <script type="text/javascript">
+     function Person(){
+         this.sayHi = function(){
+
+         }
+     }
+
+     function Student(){
+         
+     }
+     Student.prototype = new Person();
+     Student.prototype.sayHi = function(l){
+        return "Hi! I am Student";
+     }
+     // Create Teacher Object
+     function Teacher(){}
+     Teacher.prototype = new Person();
+     Teacher.prototype.sayHi = function(){
+         return "Hi! I am Teacher";
+     }
+
+     var sobj = new Student();
+     console.log(sobj);
+     console.log(sobj.sayHi());
+     var tObj = new Teacher();
+     console.log(tObj);
+     console.log(tObj.sayHi());
+
+     if(sobj instanceof Person){
+         console.log("JavaScript supports OOPs");
+     }
+
+    </script>
+</head>
+</html>

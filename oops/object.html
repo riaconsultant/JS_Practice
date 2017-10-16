@@ -1,0 +1,48 @@
+<html></html>
+<head>
+    <title>Object in JavaScript</title>
+    <script type="text/javascript">
+        var obj={
+            fname:"Chaurasiya"
+        }
+
+        function obj1(){
+            var name="Manoj";
+            return {name};
+        }
+        var obj2=new obj1();
+        console.log(obj2.__proto__);
+        console.log(obj.prototype);
+        console.log(obj);
+        var obj3 = Object.create(obj);
+        obj3['abc']="ksajfisf";
+        console.log(obj3);
+        console.log(obj3.abc);
+        console.log(obj3.fname);
+        
+        // Constructor way to create Object
+        function a(){
+            this.name="Mann";
+            this.whatIam = function(){
+                return "I am "+ this.name;
+            }
+        }
+        var aa = new a();
+        console.log(aa);
+        console.log(aa.whatIam());
+        // Literal way to create Object
+        var myObj = {
+            name:"Janvi",
+            whatIam:function(){
+                return "My Name is "+this.name;
+            }
+        }
+        //var ab = new myObj();
+        console.log(myObj);
+        console.log(myObj.whatIam());
+    </script>
+</head>
+<body>
+    <div> </div>
+</body>
+</html>

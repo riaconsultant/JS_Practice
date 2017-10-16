@@ -1,0 +1,26 @@
+<html></html>
+<head>
+    <script>
+        function Person(){
+            this.name="Manoj";
+            this.sayHi = function(){
+                return "Hello "+this.name+" !!!";
+            }
+        }
+        function Student(){
+
+        }
+        function st(){
+            this.abc="asdsad";
+        }
+        //1 way
+        Student.prototype = new Person();
+        var stud = new Student();
+        console.log(stud);
+        // 2 way 
+        st.prototype = Object.create(Student);
+        var stu = new st();
+        console.log(stu);
+    </script>
+</head>
+</html>

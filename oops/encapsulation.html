@@ -1,0 +1,22 @@
+<html>
+<head>
+    <script type="text/javascript">
+        function Person(){
+            // private variable
+            var dob="25Feb2012";
+            return{
+            // public variables
+            age:32,
+            name:"Manoj",
+            getDOB:function(){
+                return dob;
+            }
+            }
+        }
+        var pobj = new Person();
+        console.log(pobj.getDOB());
+        console.log(pobj.dob);
+        console.log(pobj);
+    </script>
+</head>
+</html>
