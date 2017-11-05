@@ -54,3 +54,8 @@ class abc{
 var abc1 = new abc("manoj","adsd");
 console.log(abc1);
 console.log(abc1.speak())
+/* When ever try to access the value of any property of a object.
+ * 1. check the current object property 
+ * 2. if not there goes to their prototype object and try to find property
+ * 3. if still not find again goes to parent prototype.
+ */
