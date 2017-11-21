@@ -2,13 +2,15 @@
 var arr = [1,2,3,4,5,6,7,8];
 // Concat
 
+var cat = arr.concat([9,10]);
+console.log(cat);
+
+// ForEach
+var arr1=[];
+arr.forEach(function(val){
+    arr1.push(val+4);
+})
+
+console.log(arr1);
 
 
-
-
-/**
- * ES6 : Array Function
- */
-// Searching function
-arr.find(x => x > 3) // 4
-arr.findIndex(x => x > 3) // 2
