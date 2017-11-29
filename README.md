@@ -21,6 +21,29 @@ Java Script Practice set as per standard
 >>2. MVP
 >>3. MVVM
 
+# Data Structure
+1. Bubble Sort
+2. Insertion Sort
+3. Selection Sort
+4. Merge Sort
+5. Quick Sort
+
+Operations
+1. Comparison
+2. Swap 
+
+Measurement Performance
+1. Time Complexity
+2. Space Complexity
+
+Set Algorithms
+1. Union
+2. InterSection
+3. Set Difference
+4. Symmectric Difference
+
+
+
 
 Thanks, 
 <b>Manoj</b>
