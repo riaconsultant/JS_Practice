@@ -37,10 +37,10 @@ Measurement Performance
 2. Space Complexity
 
 Set Algorithms
-1. Union
-2. InterSection
-3. Set Difference
-4. Symmectric Difference
+1. Union  - {1,2,3,4} - { 3,5,6} = {1,2,3,4,5,6}
+2. Intersection - {1,2,3,4} - {3,4,5,6} = {3,4}
+3. Set difference - { 1,2,3,4} - {3,4,5,6} = {1,2}
+4. Symmentic difference - { 1,2,3 } - { 2,3,4 } = {1,4}
 
 
 
