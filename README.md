@@ -43,7 +43,8 @@ Set Algorithms
 4. Symmentic difference - { 1,2,3 } - { 2,3,4 } = {1,4}
 
 
-
+Principal 
+1. Single Responsibility 
 
 Thanks, 
 <b>Manoj</b>
