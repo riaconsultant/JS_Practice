@@ -1,8 +1,10 @@
-let data = new Promise((resolve)=>{
+let data = function(){
+    return  new Promise((resolve)=>{
 
-},(reject)=>{
+        },(reject)=>{
 
-})
+        })
+    };
 
 data().then((result)=>{
 
