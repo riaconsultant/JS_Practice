@@ -1,0 +1,38 @@
+<html>
+<head>
+</head>
+<body>
+    <p>Variable Scoping --  Scope of declare variable is accessable only in side the block only.</p>
+    
+    <p>Function Scoping</p>
+    <script>
+        // Variable Scope
+        var a="";
+        for(let i=0;i<10;i++){
+            console.log(i);
+            document.write(i+"<br/>");
+            a += i+ " ";
+        }
+        //console.log(i); // Give Error : i is not defined
+        //a += i+"--";
+        //document.getElementById("varId").innerText = a;
+        //document.write('\n\n '+ a);
+
+        // Function Scope
+        {
+            function foo(){ return 10;}
+            foo() === 10
+            {
+                console.log(foo()+" before inner ");
+                document.write("\n\n"+foo() +" -- before Inner function declare <br/>");
+                function foo(){ return 20;}
+                console.log(foo() +" -- inner function ");
+                document.write("\n"+foo() +" -- inner function <br/>");
+            }
+            console.log(foo() + "-- Out scope");
+            document.write("\n"+foo()+" -- Outer function <br/>");
+        }
+        
+    </script>
+</body>
+</html>

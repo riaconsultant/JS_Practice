@@ -1,0 +1,12 @@
+<html>
+<head>
+    <script>
+        function getMatch(){
+            return {a:1,b:5,c:10,e:25};
+        };
+       //var obj = {a,b,c};
+       var {a,b,c,d=20,e} = getMatch();
+       document.write(a +"  "+ b +" "+c +" "+d +" "+e);
+    </script>
+</head>
+</html>

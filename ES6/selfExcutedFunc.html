@@ -1,0 +1,24 @@
+<html>
+<head>
+    <script>
+    (function(){
+        for(var i=1;i<=10;i++){
+            //console.log(i);
+            setTimeout(function(i){
+                var a= function(){
+                    console.log(i);
+                }
+                return a;
+            }(i),i*1000);
+        }
+        console.log("start.."+i);
+    })();    
+
+var y=10;
+    (function(y){
+        //y=5;
+        console.log(y);
+    })(y);
+    </script>
+</head>
+</html>
